@@ -1,0 +1,14 @@
+6/3/15
+
+Uploading old network graphing code.  Most of the code is incomplete to remove some of the data associated with it.  This code base is somewhat incomplete.
+
+From what I recall there were multiple steps:
+
+1. Scan which hosts are up using fping
+2. Traceroute each host
+3. Combine the traceroutes to get a single map
+4. Run nessus, nmap, and Nexpose
+5. Color nodes in graph based on security vulnerabilities from [4]
+6. Convert to dot file, then graph
+
+
